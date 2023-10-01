@@ -30,10 +30,35 @@ body {
   align-items: center;
 }
 
+.sp-btw {
+  justify-content: space-between;
+}
+
+.w-100 {
+  width: 100%;
+}
+
 .mr-10 {
   margin-right: 10px;
 }
 
 .mr-20 {
   margin-right: 20px;
+}
+
+.custom-font {
+  font-family: 'Dancing Script', cursive;
+  // font-family: 'Noto Sans', sans-serif;
+}
+
+.fs-1-5 {
+  font-size: 1.5rem;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.border-bottom {
+  border-bottom: 1px dashed;
 }

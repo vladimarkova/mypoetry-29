@@ -18,7 +18,9 @@
   font-weight: bold;
 }
 
-.custom-font {
-  font-family: 'Dancing Script', cursive;
-  // font-family: 'Noto Sans', sans-serif;
+.right-section {
+  border: 1px dashed;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: $header-date-time-bg-color;
 }
