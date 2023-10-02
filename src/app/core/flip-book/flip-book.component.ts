@@ -43,6 +43,8 @@ export class FlipBookComponent implements AfterViewInit {
   pageConfig: PageConfig = { pageTotal: '-', pageOrientation: Orientation.LANDSCAPE, pageCurrent: 1, pageState: PageState.READ };
   pageFlip!: PageFlip;
 
+  bookTitle: string = 'My Poetry';
+
   ngAfterViewInit() {
     const containerElement = this.demoBookExample.nativeElement;
     this.pageFlip = new PageFlip(

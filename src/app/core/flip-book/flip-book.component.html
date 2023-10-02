@@ -1,11 +1,11 @@
 <div class="page-frame">
 
-  <div class="book-container-wrapper">
+  <div class="book-container-wrapper mt-100">
     <div class="container w-50 h-50 mb-20">
       <div class="flip-book" id="demoBookExample" #demoBookExample>
           <div class="page page-cover page-cover-top" data-density="hard">
               <div class="page-content">
-                  <h2>BOOK TITLE</h2>
+                  <h2 class="custom-font">{{ bookTitle }}</h2>
               </div>
           </div>
           <div class="page">
@@ -42,10 +42,12 @@
     </div>
 
     <div class="container">
-      <div class="mb-5">
-          <button type="button" class="btn-prev" (click)="handleFlip(flipType.PREV)">Previous page</button>
-          [<span class="page-current">{{ pageConfig.pageCurrent }}</span> of <span class="page-total">{{ pageConfig.pageTotal }}</span>]
-          <button type="button" class="btn-next" (click)="handleFlip(flipType.NEXT)">Next page</button>
+      <div class="mb-10 d-flex">
+          <p-button label="Previous page" class="btn-prev mr-5" (click)="handleFlip(flipType.PREV)"></p-button>
+          <div class="mr-5">
+            [<span class="page-current">{{ pageConfig.pageCurrent }}</span> of <span class="page-total">{{ pageConfig.pageTotal }}</span>]
+          </div>
+          <p-button label="Next page" class="btn-next" (click)="handleFlip(flipType.NEXT)"></p-button>
       </div>
 
       <div>
