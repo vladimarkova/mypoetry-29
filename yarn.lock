@@ -1693,6 +1693,11 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-20.7.1.tgz#06d732ead0bd5ad978ef0ea9cbdeb24dc8717514"
   integrity sha512-LT+OIXpp2kj4E2S/p91BMe+VgGX2+lfO+XTpfXhh+bCk2LkQtHZSub8ewFBMGP5ClysPjTDFa4sMI8Q3n4T0wg==
 
+"@types/page-flip@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@types/page-flip/-/page-flip-2.0.1.tgz#f86ff6b63f59afbb98773c04e949abc39831c4ea"
+  integrity sha512-4Arlwgy6fZoAkzkv51oqoE56Bhf2WJVMQX/Vn/K4hqdlTreYvkuPf7Vao89Tbu41wU3TdbGsy9w+m8UJQKG1Xw==
+
 "@types/parse-json@^4.0.0":
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@types/parse-json/-/parse-json-4.0.0.tgz#2f8bb441434d163b35fb8ffdccd7138927ffb8c0"
@@ -4732,6 +4737,11 @@ pacote@15.1.0:
     sigstore "^1.0.0"
     ssri "^10.0.0"
     tar "^6.1.11"
+
+page-flip@^2.0.7:
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/page-flip/-/page-flip-2.0.7.tgz#b6eaf9dac78fd1dceeb7cb4d0e2eeb203591ea1e"
+  integrity sha512-96lQFUUz7r/LZzEUZJ3yBIMEKU9+m8HMFDzTvTdD6P7Ag/wXINjp9n0W7b4wanwnDbQETo4uNUoL3zMqpFxwGA==
 
 pako@^1.0.3:
   version "1.0.11"
