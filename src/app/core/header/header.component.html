@@ -1,0 +1,13 @@
+<div class="header d-flex sp-btw">
+  <div class="d-flex">
+    <img src="assets/logo.jpg" alt="logo" class="logo mr-10">
+    <div class="header-text custom-font"></div>
+  </div>
+  <div class="custom-font fs-1-5">To be continued...</div>
+  <div class="d-flex custom-font right-section">
+    <i class="pi pi-calendar" style="font-size: 1.3rem; margin-right: 5px"></i>
+    <div class="mr-10 border-bottom">{{ date | date: 'EEE d MMM y' }}</div>
+    <i class="pi pi-clock" style="font-size: 1.3rem; margin-right: 5px"></i>
+    <div class="border-bottom">{{ date | date: 'HH:mm' }}</div>
+  </div>
+</div>
