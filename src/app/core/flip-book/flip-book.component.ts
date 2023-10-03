@@ -1,5 +1,6 @@
 import { AfterViewInit, Component, ElementRef, ViewChild } from '@angular/core';
 import { PageFlip } from 'page-flip';
+import { IPoetry, poetries } from 'src/app/poetry/poetries';
 
 export enum SizeType {
   /** Dimensions are fixed */
@@ -44,6 +45,8 @@ export class FlipBookComponent implements AfterViewInit {
   pageFlip!: PageFlip;
 
   bookTitle: string = 'My Poetry';
+
+  poetryList: IPoetry[] = poetries;
 
   ngAfterViewInit() {
     const containerElement = this.demoBookExample.nativeElement;
