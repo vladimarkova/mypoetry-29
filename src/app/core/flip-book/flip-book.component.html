@@ -20,9 +20,12 @@
           <ng-container *ngFor="let poetry of poetryList; index as i">
             <div class="page">
               <div class="page-content">
-                  <h2 class="page-header">Page header {{ i + 1 }}</h2>
+                  <h2 class="page-header icon-h2-wrapper">
+                    <img src="/assets/page-icon-vintage.jpeg" alt="page-number-wrapper-icon" class="page-icon">
+                    <div class="page-number custom-font">{{ i + 1 }}</div>
+                  </h2>
                   <div class="page-image" style="background-image: url(assets/logo.jpg)"></div>
-                  <div class="page-text">{{ poetry.content }}</div>
+                  <div class="page-text" [innerHTML]="poetry.content"></div>
                   <div class="page-footer">{{ +poetry.id + 1 }}</div>
               </div>
             </div>
