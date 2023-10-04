@@ -1,6 +1,10 @@
 {
   "name": "mypoetry-29",
   "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vladimarkova/mypoetry-29.git"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -19,6 +23,7 @@
     "@angular/platform-browser-dynamic": "^15.2.0",
     "@angular/router": "^15.2.0",
     "@types/page-flip": "^2.0.1",
+    "angular-cli-ghpages": "^1.0.7",
     "page-flip": "^2.0.7",
     "primeicons": "^6.0.1",
     "primeng": "15",
