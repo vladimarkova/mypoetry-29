@@ -100,4 +100,8 @@ export class FlipBookComponent implements AfterViewInit {
     flipType === FlipType.PREV ? this.pageFlip.flipPrev() : this.pageFlip.flipNext(); // Turn to the prev/next page (with animation)
   }
 
+  openGallery() {
+
+  }
+
 }

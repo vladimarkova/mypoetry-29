@@ -5,6 +5,7 @@ import { ButtonModule } from 'primeng/button';
 
 import { HeaderComponent } from './header/header.component';
 import { FlipBookComponent } from './flip-book/flip-book.component';
+import { RouterModule } from '@angular/router';
 
 const primeImports = [ButtonModule];
 
@@ -15,6 +16,7 @@ const primeImports = [ButtonModule];
   ],
   imports: [
     CommonModule,
+    RouterModule,
     ...primeImports,
   ],
   exports: [
